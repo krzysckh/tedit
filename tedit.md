@@ -16,7 +16,7 @@ tedit is a tiny ed-like line editor.
 
 # commands
 
-*a*	-	appends current line
+*a*	-	writes to current line
 
 *g*	-	prompts for changing line
 
