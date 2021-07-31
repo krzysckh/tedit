@@ -27,5 +27,5 @@ int main() {
 				cout << "o?: " ; getline(cin, fname) ; if (openf(fname)) { err(); } else {cout << "o <- " << fname << endl; } }
 			else { err(); }
 		} else {
-			getline(cin, LINE[line]); LINE[line] = LINE[line] + "\n";
+			getline(cin, LINE[line]); LINE[line] = LINE[line] + '\n';
 			mode = 0;} } }
