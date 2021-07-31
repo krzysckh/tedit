@@ -1,0 +1,68 @@
+.TH "tedit" 1
+
+.SH "name"
+.PP
+tedit \- \fBt\fPiny \fBedit\fPor
+
+.SH "synopsis"
+.PP
+tedit
+
+.SH "copyright"
+.PP
+written by krzysckh (under WTFPL)
+
+.SH "description"
+.PP
+tedit is a tiny ed\-like line editor\.
+
+.SH "commands"
+.PP
+\fIa\fP	\-	appends current line
+.PP
+\fIg\fP	\-	prompts for changing line
+.PP
+\fIw\fP	\-	prompts for file name and saves the file
+.PP
+\fIq\fP	\-	exits
+.PP
+\fIs\fP	\-	shows current line
+
+.SH "example"
+.PP
+this is a transcript of an example tedit session
+.RS
+.PP
+.nf
+$ tedit
+a
+#!/bin/bash
+g
+g?: 1
+a
+for i in $(seq 100)
+g
+g?: 2
+a
+do
+g
+g?: 3
+a
+echo "god i love gaming $i"
+g
+g?: 4
+a
+done
+w
+w?: gaming\.sh
+w \-> gaming\.sh
+q
+.fi
+.RE
+
+.SH "limitations"
+.PP
+tedit has a limitation of hard\-coded maximum number of lines\.
+.PP
+it can be easily changed by changing 4096 in `\f[CR]#define MAX_LINES 4096\fP` to anything else,
+and recompiling tedit
