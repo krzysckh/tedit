@@ -1,15 +1,5 @@
 # tedit - **t**iny **edit**or
 
-## synopsis
-
-tedit
-
-## copyright
-
-written by krzysckh (under WTFPL)
-
-## description
-
 tedit is a tiny ed-like line editor.
 
 ## commands
@@ -59,3 +49,8 @@ tedit has a limitation of hard-coded maximum number of lines.
 
 it can be easily changed by changing 4096 in `#define MAX_LINES 4096` to anything else,
 and recompiling tedit
+
+## copyright
+
+written by krzysckh (under WTFPL)
+
