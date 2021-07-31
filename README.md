@@ -6,6 +6,8 @@ tedit is a tiny ed-like line editor.
 
 *a*	-	writes to current line
 
+*ap*	-	appends to current line
+
 *g*	-	prompts for changing line
 
 *w*	-	prompts for file name and saves the file
