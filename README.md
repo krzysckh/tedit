@@ -14,6 +14,8 @@ tedit is a tiny ed-like line editor.
 
 *s*	-	shows current line
 
+*o*	-	prompts for file name and opens it
+
 ## example
 
 this is a transcript of an example tedit session
