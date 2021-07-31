@@ -1,20 +1,18 @@
-# name
+# tedit - **t**iny **edit**or
 
-tedit - **t**iny **edit**or
-
-# synopsis
+## synopsis
 
 tedit
 
-# copyright
+## copyright
 
 written by krzysckh (under WTFPL)
 
-# description
+## description
 
 tedit is a tiny ed-like line editor.
 
-# commands
+## commands
 
 *a*	-	writes to current line
 
@@ -26,7 +24,7 @@ tedit is a tiny ed-like line editor.
 
 *s*	-	shows current line
 
-# example
+## example
 
 this is a transcript of an example tedit session
 
@@ -55,7 +53,7 @@ this is a transcript of an example tedit session
 	q
 
 
-# limitations
+## limitations
 
 tedit has a limitation of hard-coded maximum number of lines.
 
