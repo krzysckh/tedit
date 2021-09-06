@@ -53,8 +53,3 @@ tedit has a limitation of hard-coded maximum number of lines.
 
 it can be easily changed by changing 4096 in `#define MAX_LINES 4096` to anything else,
 and recompiling tedit
-
-## copyright
-
-written by krzysckh (under WTFPL)
-
