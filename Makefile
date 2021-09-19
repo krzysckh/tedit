@@ -1,18 +1,12 @@
-bind=/usr/bin/
-mand=/usr/share/man/man1/
+PREFIX=/usr
+CXXFLAGS=-Wall
 
-tedit:
-	c++ tedit.cpp -o tedit
-
+tedit: tedit.cpp
 clean:
 	rm tedit
-
 install: tedit
-	cp tedit $(bind)
-	cp tedit.1 $(mand)
-
+	cp tedit $(PREFIX)/bin/
+	cp tedit.1 $(PREFIX)/share/man/man1/
 uninstall:
-	rm $(bind)tedit
-	rm $(mand)tedit.1
-
-
+	rm $(PREFIX)/bin/tedit
+	rm $(PREFIX)/share/man/man1/tedit.1
