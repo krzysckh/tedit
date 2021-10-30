@@ -1,7 +1,8 @@
 PREFIX=/usr
 CXXFLAGS=-Wall
 
-tedit: tedit.cpp
+all:
+	g++ tedit.cpp -o tedit
 clean:
 	rm tedit
 install: tedit
